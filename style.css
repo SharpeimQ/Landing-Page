@@ -174,3 +174,10 @@ img {
 }
 
 /* Footer */
+.Footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 12px;
+    text-align: center;
+    padding: 40px 0px 40px 0px;
+}
