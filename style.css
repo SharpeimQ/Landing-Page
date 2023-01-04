@@ -17,11 +17,15 @@ a {
     color: #E5E7EB;
 }
 /* Header */
+.background1 {
+    background-color: #1F2937;
+}
+
 .Header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    background-color: #1F2937;
+    padding: 0 10% 0 10%;
 }
 
 .Head-logo {
@@ -39,7 +43,28 @@ a {
     flex-shrink: 0;
 }
 
-/* Container1 */
+/* Container1 http://clipart-library.com/clip-art/8-85968_holi-color-image-with-transparent-background-holi-color.htm */
+.container1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10% 0 10%;
+}
+
+.Heading {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+img {
+    width: auto;
+    height: 200px;
+}
+
+.sign-up {
+    width: 70px;
+}
 
 /* Container2 */
 /* Container3 */
