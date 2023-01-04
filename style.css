@@ -72,18 +72,20 @@ a {
 
 .sign-up {
     width: 100px;
-    padding: 5px 15px 5px 15px;
+    padding: 3px 15px 3px 15px;
     background-color: #3882F6;
     color: #E5E7EB;
-    border-radius: 10px;
+    border-radius: 5px;
     border-width: 0;
     font-weight: bold;
     font-family: Roboto;
+    flex-shrink: 0;
 }
 
 /* Container2 */
 .background2 {
     background-color: #F9FAF8;
+    align-items: center;
 }
 .container2 {
     display: flex;
@@ -139,4 +141,36 @@ img {
     text-align: end;
 }
 /* Container4 */
+.container4 {
+    display: flex;
+    background-color: #3882F6;
+    margin: 10% 10% 10% 10%;
+    padding: 50px 100px 50px 100px;
+    border-radius: 10px;
+}
+
+.ad {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.quote4 {
+    font-size: 24px;
+    font-weight: 1000;
+    color: #F9FAF8;
+}
+
+.quote4 div {
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.container4 .sign-up {
+    border-width: 1px;
+    border-color: #F9FAF8;
+}
+
 /* Footer */
