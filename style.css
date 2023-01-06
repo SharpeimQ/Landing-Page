@@ -16,6 +16,10 @@ a {
     text-decoration: none;
     color: #E5E7EB;
 }
+
+a:hover {
+    color: #e5e7eb58;
+}
 /* Header */
 .background1 {
     background-color: #1F2937;
@@ -25,22 +29,23 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 10% 0 10%;
+    padding: 3px 10% 0 10%;
 }
 
 .Head-logo {
     color: #E5E7EB;
     font-size: 24px;
-    font-weight: bold;
+    font-weight: 1000;
     flex-shrink: 0;
 }
 
 .links {
     display: flex;
-    gap: 20px;
+    gap: 90px;
+    align-items: center;
     font-size: 18px;
     flex-shrink: 0;
-    font-family: Roboto;
+    font-weight: 1000;
 }
 
 /* Container1 */
@@ -72,13 +77,12 @@ a {
 
 .sign-up {
     width: 100px;
-    padding: 3px 15px 3px 15px;
+    padding: 5px 20px 5px 20px;
     background-color: #3882F6;
     color: #E5E7EB;
     border-radius: 5px;
     border-width: 0;
     font-weight: bold;
-    font-family: Roboto;
     flex-shrink: 0;
 }
 
@@ -175,9 +179,17 @@ img {
 }
 
 .container4 .sign-up {
-    border-width: 1px;
-    border-color: #F9FAF8;
+    border: 5px solid #F9FAF8;
+    background-color: #3882F6;
 }
+
+.sign-up:hover,
+.container4 .sign-up:hover {
+    background-color: #3881f6a8;
+    color: #f9faf88a;
+    border-color: #f9faf88a;
+}
+
 
 /* Footer */
 .Footer {
